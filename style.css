@@ -28,6 +28,8 @@ body, html{
     align-items: center;
     border-radius: 10px;
     text-align: center;
+    width: 320px;
+    padding: 10px 30px;
 }
 
 a{
@@ -68,25 +70,7 @@ img{
 
     border-radius: 50%;
     width: 30%; 
-    
-}
-
-
-
-
-@media screen and (max-width: 375px) {
-
-    .card{
-
-        width: 320px;
-        padding: 10px 30px;
-    }
-
-    img{
-        margin: 20px;
-    }
-
-
+    margin: 20px;
 }
 
 
@@ -101,4 +85,6 @@ img{
         margin: 30px;
     }
 }
+
+
 
